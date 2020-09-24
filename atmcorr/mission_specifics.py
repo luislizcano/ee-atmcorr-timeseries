@@ -84,10 +84,10 @@ def eeCollection(mission):
 
   switch = {
     'Sentinel2':'COPERNICUS/S2',
-    'Landsat8':'LANDSAT/LC8_L1T_TOA_FMASK',
-    'Landsat7':'LANDSAT/LE7_L1T_TOA_FMASK',
-    'Landsat5':'LANDSAT/LT5_L1T_TOA_FMASK',
-    'Landsat4':'LANDSAT/LT4_L1T_TOA_FMASK'
+    'Landsat8':'LANDSAT/LC08/C01/T1_TOA',
+    'Landsat7':'LANDSAT/LE05/C01/T1_TOA',
+    'Landsat5':'LANDSAT/LT05/C01/T1_TOA',
+    'Landsat4':'LANDSAT/LT04/C01/T1_TOA'
   }
 
   return switch[mission]
